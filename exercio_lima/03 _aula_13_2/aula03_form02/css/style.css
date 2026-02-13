@@ -1,0 +1,32 @@
+.login-form{
+    background: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+    width: 20vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-group{
+    margin-bottom: 15px; /*coloca 15 px de distacia entre os campos */
+    display: flex;
+    flex-direction: column;/*coloca a label emcima do input */
+} 
+.input-group label{
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #333;
+}
+.input-group input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-form button{
+    width: 100%; /*ocupa a largura total da form*/
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border-radius:5px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
